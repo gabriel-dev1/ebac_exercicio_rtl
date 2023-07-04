@@ -8,7 +8,7 @@ describe('Teste para o componente PostComment', () => {
         expect(screen.getByText('Comentar')).toBeInTheDocument();
     });
 
-    it('Deve registrar dois comentarios', () => {
+    it('Deve registrar três comentários', () => {
         render(<PostComment />)
         /*  const { debug } = render(<PostComment />) */
 
